@@ -14,4 +14,4 @@ def songs
 end
 
 def help
-  puts I acc
+  puts ""

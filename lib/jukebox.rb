@@ -32,7 +32,7 @@ def play(songs)
   user_input = gets.strip
   
   if user_input.to_i > songs.length or user_input.to_i < 1 or not songs.include? user_input.to_s
-    puts "Invalid input, please try again."
+    puts "Invalid input, please try again"
   end
 end
 

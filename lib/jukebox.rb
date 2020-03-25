@@ -35,9 +35,9 @@ def play(songs)
     if user_input.to_i == index + 1 or user_input == song
       puts "Playing #{song}"
       break
-    else
+    end
+    if index == songs.length - 1
       puts "Invalid input, please try again"
-      break
     end
   end
 end

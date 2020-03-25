@@ -31,7 +31,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
   
-  puts user_input.to_i.is_a? Integer
+  puts user_input.is_a? Integer
 end
 
 def exit_jukebox

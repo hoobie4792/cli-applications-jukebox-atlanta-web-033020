@@ -14,7 +14,7 @@ def songs
 end
 
 def say_hello(name)
-  "Hi #{name}!"
+  return "Hi #{name}!"
 end
 
 puts "Enter your name:"

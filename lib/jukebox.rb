@@ -12,3 +12,5 @@ def songs
   ]
   return songs
 end
+
+puts songs

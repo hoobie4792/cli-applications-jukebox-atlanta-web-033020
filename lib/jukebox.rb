@@ -13,3 +13,5 @@ songs = [
 def main
   puts songs
 end
+
+main

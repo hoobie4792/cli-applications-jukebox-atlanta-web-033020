@@ -18,4 +18,5 @@ def help
   puts "- help : displays this help message"
   puts "- list : displays a list of songs you can play"
   puts "- play : lets you choose a song to play"
-- exit : exits this program"
+  puts "- exit : exits this program"
+end

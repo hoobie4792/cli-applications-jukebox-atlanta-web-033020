@@ -27,3 +27,6 @@ def list
   end
 end
 
+def play(songs)
+  puts 
+end

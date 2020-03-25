@@ -31,16 +31,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
   
-  if user_input.to_i > songs.length and user_input.to_i < 1
-    puts "Invalid input, please try again"
-  else
-    if user_input.to_i.is_a? Integer
-      song_name = songs[user_input]
-    else
-      song_name = user_input
-    end
-    puts "Playing #{song_name}"
-  end
+  puts user_input.to_i + 3
 end
 
 def exit_jukebox

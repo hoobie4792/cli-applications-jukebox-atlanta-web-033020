@@ -31,7 +31,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip
   
-  if user_input.to_i < songs.length and user_input.to_i > 0 or not songs.include? user_input.to_s
+  if user_input.to_i > songs.length and user_input.to_i < 1
     puts "Invalid input, please try again"
   else
     if user_input.is_a? Integer

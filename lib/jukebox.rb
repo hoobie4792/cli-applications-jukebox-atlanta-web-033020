@@ -10,4 +10,6 @@ songs = [
 "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-puts songs
+def main
+  puts songs
+end

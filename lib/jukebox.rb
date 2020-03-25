@@ -23,6 +23,8 @@ end
 
 def list
   songs.each do |index|
-    puts "#{index}. #{songs[index]"
+    puts "#{index}. #{songs[index]}"
   end
 end
+
+list

@@ -12,3 +12,6 @@ def songs
   ]
   return songs
 end
+
+def help
+  puts I acc

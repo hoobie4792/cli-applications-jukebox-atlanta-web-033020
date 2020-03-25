@@ -34,7 +34,7 @@ def play(songs)
   if user_input.to_i > songs.length and user_input.to_i < 1
     puts "Invalid input, please try again"
   else
-    if user_input.is_a? Integer
+    if user_input.to_i.is_a? Integer
       song_name = songs[user_input]
     else
       song_name = user_input

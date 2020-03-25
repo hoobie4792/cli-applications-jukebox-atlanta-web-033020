@@ -27,4 +27,3 @@ def list
   end
 end
 
-list
